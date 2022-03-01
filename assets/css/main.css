@@ -2990,7 +2990,9 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 0em;
+				padding-left: 1em;
+				padding-right: 1em;
 			}
 
 		}
