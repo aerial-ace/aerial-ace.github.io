@@ -1,0 +1,511 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>All Commands : Aerial Ace</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Aerial Ace
+				</a></h1>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<div class="inner">
+				<h2>Menu</h2>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="commands.html">Commands</a></li>
+					<li><a href="about-the-dev.html">Developer</a></li>
+				</ul>
+				<a href="#" class="close">Close</a>
+			</div>
+		</nav>
+
+		<!-- Wrapper -->
+		<section id="wrapper">
+			<header>
+				<div class="inner">
+					<h2>All Commands</h2>
+					<p>Here is the list of all the available commands with examples.</p>
+					<p>Help Command : <code style="text-transform: none;">-aa help</code></p>
+				</div>
+			</header>
+		</section>
+		<section id="wrapper">
+
+			<!-- One -->
+			<section id="dex" class="wrapper spotlight style3">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Pokedex</h2>
+						<p>All commands related to pokedex.</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Dex</td>
+											<td>Provides the pokedex entry of any pokemon</td>
+											<td>Pokemon</td>
+											<td>-aa dex durant</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Two -->
+			<section id="battle" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Battle Details</h2>
+						<p>All commands related to battles and dueling</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Stats</td>
+											<td>Provides the compulsary stats of any Duelish Pokemon</td>
+											<td>Pokemon</td>
+											<td>-aa stats solgaleo</td>
+										</tr>
+										<tr>
+											<td>Moveset</td>
+											<td>Provides the best moveset for any Duelish Pokemon</td>
+											<td>Pokemon</td>
+											<td>-aa moveset regigigas</td>
+										</tr>
+										<tr>
+											<td>Nature</td>
+											<td>Provides the best nature for any Duelish Pokemon</td>
+											<td>Pokemon</td>
+											<td>-aa nature kyurem</td>
+										</tr>
+										<tr>
+											<td>Weakness</td>
+											<td>Provides the type weakness of any pokemon or type(s)</td>
+											<td>Pokemon/Type(s)</td>
+											<td>-aa weakness mew <br>-aa weakness ice water
+											</td>
+										</tr>
+										<tr>
+											<td>Tierlist</td>
+											<td>Provides the tierlist of the pokemon sorted by types</td>
+											<td>Tier</td>
+											<td>-aa tierlist steel<br>-aa tl mega</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Shiny Pings Details -->
+			<section id="shiny" class="wrapper spotlight style3">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Shiny Pings</h2>
+						<p>All commands related to shiny pings.</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Tag</td>
+											<td>Adds the user to the provided tag ping list</td>
+											<td>Pokemon</td>
+											<td>-aa tag aron</td>
+										</tr>
+										<tr>
+											<td>Tag Ping</td>
+											<td>Pings all users assigned to the provided tag</td>
+											<td>Pokemon</td>
+											<td>-aa tag_ping pichu</td>
+										</tr>
+										<tr>
+											<td>Tag Show</td>
+											<td>Shows all users assigned to the provided tag without pinging.</td>
+											<td>Pokemon</td>
+											<td>-aa tag_show morpeko</td>
+										</tr>
+										<tr>
+											<td>AFK</td>
+											<td>Prevents the user from getting pinged from tag_ping.</td>
+											<td>State</td>
+											<td>-aa afk on<br>-aa afk off</td>
+										</tr>
+									</tbody>
+									<thead>
+										<tr>
+											<th>Admin Commands</th>
+											<th></th>
+											<th></th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Tag Remove</td>
+											<td>Removes the user from their Tag</td>
+											<td>Member</td>
+											<td>-aa tr @P5</td>
+										</tr>
+										<tr>
+											<td>Tag Remove ID</td>
+											<td>Removes the user from their Tag using user_id</td>
+											<td>User ID</td>
+											<td>-aa trid 716390085896962058</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!--Battle Board Details-->
+			<section id="leaderboard" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Battle Board</h2>
+						<p>All commands related to battle board.</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Log Battle</td>
+											<td>Logs the battle in the leaderboard</td>
+											<td>@winner @loser</td>
+											<td>-aa lb @P1 @P2</td>
+										</tr>
+										<tr>
+											<td>Battle leaderboard</td>
+											<td>Displays the battle leaderboard of the server with scores</td>
+											<td>None</td>
+											<td>-aa battle_lb</td>
+										</tr>
+										<tr>
+											<td>Battle Score</td>
+											<td>Displays the user's battle score</td>
+											<td>User</td>
+											<td>-aa bs @P6</td>
+										</tr>
+										<tr>
+											<td>AFK</td>
+											<td>Prevents the user from getting pinged from tag_ping.</td>
+											<td>State</td>
+											<td>-aa afk on<br>-aa afk off</td>
+										</tr>
+									</tbody>
+									<thead>
+										<tr>
+											<th>Admin Commands</th>
+											<th></th>
+											<th></th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Battle Remove</td>
+											<td>Removes the user from the battle board</td>
+											<td>Member</td>
+											<td>-aa br @P5</td>
+										</tr>
+										<tr>
+											<td>Battle Remove ID</td>
+											<td>Removes the user from the battle board using user_id</td>
+											<td>User ID</td>
+											<td>-aa brid 716390085896962058</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Fun Details -->
+			<section id="fun" class="wrapper spotlight style3">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Fun</h2>
+						<p>All commands related to Fun Module.</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Hit</td>
+											<td>Hit anyone using pokemon gifs</td>
+											<td>Member</td>
+											<td>-aa hit @User69</td>
+										</tr>
+										<tr>
+											<td>Kill [SFW lol]</td>
+											<td>Kill anyone using pokemon gifs.</td>
+											<td>Member</td>
+											<td>-aa kill @User69</td>
+										</tr>
+										<tr>
+											<td>Tease</td>
+											<td>Tease anyone using pokemon gifs.</td>
+											<td>Member</td>
+											<td>-aa tease @User69</td>
+										</tr>
+										<tr>
+											<td>Dance</td>
+											<td>Dance solo or with anyone using pokemon gifs.</td>
+											<td>Member</td>
+											<td>-aa dance @User69</td>
+										</tr>
+										<tr>
+											<td>Pat</td>
+											<td>Give anyone a pat using pokemon gifs.</td>
+											<td>Member</td>
+											<td>-aa pat @User69</td>
+										</tr>
+										<tr>
+											<td>Cry</td>
+											<td>Cry using pokemon gifs.</td>
+											<td>None</td>
+											<td>-aa cry</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!--Random Misc Details-->
+			<section id="random" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Random Miscellaneous</h2>
+						<p>All commands related to Random Module.</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Random Pokemon</td>
+											<td>Displays a randomly fetched pokemon with some info about it</td>
+											<td>None</td>
+											<td>-aa rand_poke</td>
+										</tr>
+										<tr>
+											<td>Random Type</td>
+											<td>Provides a random type</td>
+											<td>None</td>
+											<td>-aa rand_type</td>
+										</tr>
+										<tr>
+											<td>Random Team</td>
+											<td>Displays a random team of the provided tier</td>
+											<td>Tier</td>
+											<td>-aa rand_team rare<br>-aa rand_team common</td>
+										</tr>
+										<tr>
+											<td>Random Matchup</td>
+											<td>Displays a Random Match with random teams of the provided tier. Randomly
+												choose the priority as well.</td>
+											<td>Tier</td>
+											<td>-aa rand_matchup mega<br>-aa rand_matchup common</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Starboard Details -->
+			<section id="starboard" class="wrapper spotlight style3">
+				<div class="inner">
+					<div class="content">
+						<h2 class="major">Starboard</h2>
+						<p>All commands related to Starboard Module</p>
+						<!--Table of commands-->
+						<section>
+							<div class="table-wrapper">
+								<table style="text-align: left;">
+									<thead>
+										<tr>
+											<th>Command</th>
+											<th>Description</th>
+											<th>Parameters</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Support Server</td>
+											<td>Get the linkc to join support server</td>
+											<td>TextChannel</td>
+											<td>-aa starboard #starboard-channel</td>
+										</tr>
+										<tr>
+											<td>Starboard Disable</td>
+											<td>Disable the starboard.</td>
+											<td>None</td>
+											<td>-aa starboard</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="inner">
+				<h2 class="major">Doubts?</h2>
+				<p>Here is another Get in touch section, for those who are still not getting the commands, or want to
+					suggest commands that they would like to see in the bot. Join Support Server or email me using this
+					form.</p>
+				<form method="post" action="https://formspree.io/f/mgedyoan">
+					<div class="fields">
+						<div class="field">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+					<hr style="visibility: hidden;">
+				</form>
+				<h2 class="major">Links</h2>
+				<ul class="actions">
+					<li>
+						<a href="https://discord.com/api/oauth2/authorize?client_id=908384747393286174&permissions=277025647680&scope=bot%20applications.commands"
+							class="button primary">Invite Link</a>
+					</li>
+					<li>
+						<a href="https://discord.gg/CUvsyarbUC" class="button primary">Support Server</a>
+					</li>
+					<li>
+						<a href="https://top.gg/bot/908384747393286174/vote" class="button primary">Vote Link</a>
+					</li>
+					<li>
+						<a href="https://github.com/Devanshu19/Aerial-Ace" class="button primary">Source Code</a>
+					</li>
+					<li>
+						<a href="#" class="button primary">Tech Stack</a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Aerial Ace All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
